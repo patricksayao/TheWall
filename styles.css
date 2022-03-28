@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /* outline: 1px dotted #ff0000; */
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* index page */
+.index {
+    width: 700px;
+    margin: 110px auto;
+}
+
+    .index h1 {
+        margin: 20px;
+        text-align: center;
+        font-size: 50px
+    }
+
+        .index h1 span {
+            color: #ff0000;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+    .index div {
+        display: inline-block;
+        background-color: #3686bd;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .index div.whitediv {
+        background-color: #fff;
+    }
+
+        .index div h2 {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .index div form {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 5px;
+        }
+
+            .index div form label,
+            .index div form input {
+                padding: 10px;
+            }
+
+            .index div form input {
+                margin: 0 15px 0 0;
+                border: 1px solid #000;
+            }
+
+            .index div form input.submit {
+                width: 130px;
+                margin: 15px 0 15px 15px;
+                grid-column-end: 3;
+                border: 1px solid #000;
+                box-shadow: 3px 3px #000;
+            }
+
+            .index div.whitediv form input.submit {
+                background-color: #3686bd;
+                color: #fff;
+            }
+
+    .index h4 {
+        margin: 30px 30px 5px;
+        text-align: center;
+        color: #ff0000;
+    }
+
+
+/* main page */
+.main {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+    .main div.header {
+        margin-bottom: 40px;
+        padding: 10px;
+        border: 2px solid #000;
+    }
+
+        .main div.header h1,
+        .main div.header h3,
+        .main div.header a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .main div.header h1 {
+            margin-right: 650px;
+        }
+
+            .main div.header h1 span {
+                color: #ff0000;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+
+        .main div.header h3 {
+            margin-right: 20px;
+        }
+
+            .main div.header h3 span {
+                color: #ff0000;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        .main div.header a {
+            padding: 5px;
+            color: #000;
+            text-decoration: none;
+            border: 1px solid #000;
+            box-shadow: 3px 3px #000;
+        }
+
+    .main div.content {
+        width: 850px;
+        margin: 20px auto;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+        .main div.content form {
+            width: 809px;
+            margin: 20px auto;
+        }
+
+            .main div.content form textarea {
+                resize: none;
+                border: 2px solid #000;
+            }
+
+            .main div.content form input {
+                width: 150px;
+                margin: 10px 0 10px 600px;
+                padding: 5px;
+                border: 1px solid #000;
+                box-shadow: 3px 3px #000;
+            }
+
+        .main div.content p {
+            padding: 10px 20px;
+        }
+
+        .main div.content a {
+            margin: 10px;
+            padding: 2px;
+            color: #000;
+            font-size: 10px;
+            text-decoration: none;
+            border: 1px solid #000;
+            box-shadow: 3px 3px #000;
+        }
+
+            .main div.content div {
+                width: 750px;
+                margin: 8px auto;
+            }
+
+            .main div.content form.comments {
+                width: 765px;
+            }
+
+
